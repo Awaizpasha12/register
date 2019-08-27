@@ -1,0 +1,52 @@
+#logo{
+    background-color:rgb(228, 228, 90);
+    border:1vh solid rgb(3, 3, 56)
+    
+
+}
+#logo img{
+    display:block;
+    margin: 0 auto;
+    height:40vh;
+    border-radius:60%
+}
+#heading{
+    color:rgb(11, 9, 129);
+    text-align:center;
+    font-size:5vh;
+}
+#thought{
+    color:rgb(11, 9, 129);
+    text-align:center;
+    font-size:4vh;
+    font-style:italic;
+}
+#about{
+    color:rgb(11, 9, 129);
+    text-align:center;
+    font-size:4vh;
+}
+#term{
+    color:rgb(11, 9, 129);
+    text-align:center;
+    font-size:4vh;
+
+}
+#list li{
+    color:rgb(11, 9, 129);
+    line-height:4vh;
+}
+#aa{
+    color:rgb(11, 9, 129);
+    font-size:3vh;
+}
+#address{
+    color:rgb(11, 9, 129);
+    font-size:3vh;
+    text-align:center;
+
+
+}
+#contactus{
+    text-align:center;
+}

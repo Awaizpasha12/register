@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Details</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+
+        <div id="logo">
+                <img id="hrecoilogo" src="logo.JPG">
+                <p id="heading">HUMAN RIGHTS EMPOWERMENT COUNCIL OF INDIA (R.)</p>
+                <p id="thought" >Awaking Humanity In Humans</p>
+                <p id="per"> PERSONAL INFORMATION</p>
+
+               <!-- <form id="ff">
+                        <label>Name:</label><input type="text" required><br>
+                        <label>FAthers Name:</label><input type="text" required><br>
+                        <label>Name:</label><textarea rows="5" col="50" required> </textarea><br>
+
+
+                </form>-->
+                  <form action="POST" data-netlify="true">
+                        <div class="row">
+                          <div class="col">
+                                <label >Name</label>
+
+                            <input type="text" class="form-control" placeholder="First name" name="first-name" required>
+                          </div>
+                          <div class="col">
+                              <label> .</label> 
+                            <input type="text" class="form-control" placeholder="Last name" name="last-name" required>
+                          </div>
+                        </div><br>
+                        <div class="row">
+                                <div class="col">
+                                      <label > Father'sName</label>
+      
+                                  <input type="text" class="form-control" placeholder="Father's name" name="father name"required>
+                                </div> 
+                                </div><br>
+                        <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address"required>
+                              </div>
+                              
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email"required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Contact Number</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="ContactNumber" name="contact-number" required>
+    </div>
+  </div>
+
+  <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="date1">D.O.B</label>
+          <input type="date" class="form-control" id="date1" name="d.o.b"required>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="blood">Blood Group</label>
+          <select id="blood" class="form-control" name="blood-group">
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+
+          </select>
+        </div>
+        </div>
+
+        <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="Qual">Qualification</label>
+                  <input type="text" class="form-control" name="qualification"id="qual" >
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="gen">Gender</label>
+                  <select id="gen" class="form-control" name="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+        
+                  </select>
+                </div>
+                </div>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="ad">Adhaar Number</label>
+                          <input type="text" class="form-control" id="ad" placeholder="adhaarNumber" name="adhaar"required>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="pa">Pan Number</label>
+                          <input type="text" class="form-control" id="pa" placeholder="PanNumber" name="pan">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="pro">Profession</label>
+                              <input type="text" class="form-control" id="pro" placeholder="Profession" name="profession">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="ag">Age</label>
+                              <input type="text" class="form-control" id="ag" placeholder="Age"name="age">
+                            </div>
+                          </div> <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="rel">Religion</label>
+                                  <input type="text" class="form-control" id="rel" placeholder="Religion"name="religion">
+                                </div>
+                                
+                              
+                              <div class="form-group col-md-4">
+                                    <label for="m">Maritual Status</label>
+                                    <select id="m" class="form-control"name="status">
+                                      <option>Married</option>
+                                      <option>UnMarried</option>
+                          
+                                    </select>
+                                  </div>
+                                  </div>
+
+
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="cit">City</label>
+      <input type="text" class="form-control" id="cit" requiredname="city">
+    </div>
+    </div>
+
+
+
+    <h1>Family Details:</h1>
+
+
+
+
+    <div class="row">
+            <div class="col">
+                  <label > Mothers'sName</label>
+
+              <input type="text" class="form-control" placeholder="Mothers's name" required name="mom name">
+            </div> 
+            </div><br> <div class="row">
+                    <div class="col">
+                          <label > Emergency contact Number</label>
+
+                      <input type="text" class="form-control" placeholder="Emergency contact Number" required name="emergency-number">
+                    </div> 
+                    </div><br> <div class="row">
+                            <div class="col">
+                                  <label > No. of Family Members</label>
+  
+                              <input type="text" class="form-control" placeholder="number of family member"name="no. of members" >
+                            </div> 
+                            </div><br>
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+
+
+                      
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
